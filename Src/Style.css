@@ -1,0 +1,140 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header-1,
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.logo img {
+  width: 150px;
+  margin-left: 20px;
+}
+.location {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.location:hover {
+  color: white;
+}
+.book-appointment,
+.call-us {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.book-appointment:hover,
+.call-us:hover {
+  transform: scale(1.15);
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin-right: 20px;
+}
+.nav-bar {
+  display: flex;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar a:hover {
+  color: red;
+}
+.social-icons {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
+}
+.social-icons a {
+  color: white;
+}
+.social-icons a:hover {
+  color: red;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 20px;
+}
+.business {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: white;
+  gap: 15px;
+}
+.business h3 {
+  font-size: 25px;
+}
+.business p {
+  font-size: 15px;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.footer-social h3 {
+  font-size: 25px;
+}
+.footer-icons {
+  display: flex;
+  font-size: 30px;
+  gap: 20px;
+}
+.footer-icons a {
+  color: white;
+}
+.footer-icons a:hover {
+  color: red;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-nav h3 {
+  font-size: 25px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.footer-links a:hover {
+  color: red;
+}
